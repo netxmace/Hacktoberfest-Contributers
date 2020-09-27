@@ -1,0 +1,112 @@
+.card-contents{
+	position: absolute;
+	top: -50px;
+	padding: 1rem;
+	display: grid;
+}
+.card-author {
+    position: relative;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+}
+.author-avatar-img{
+	height: 100px;
+}
+.author-name{
+	height: 150px;
+	padding: 10px;
+}
+.author-avatar img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 16px 10px;
+}
+
+.half-circle {
+    position: absolute;
+    bottom: 57px;
+    left: 5px;
+    width: 60px;
+    height: 48px;
+    fill: none;
+    stroke: #ff8a00;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+.card-header {
+    margin-bottom: auto;
+}
+
+.card-header p {
+    font-size: 14px;
+    margin: 0 0 1rem;
+    color: #7a7a8c;
+}
+
+.card-header h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+    cursor: pointer;
+}
+
+.card-header h2:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hobbies-text{
+	text-align: left;
+	font-weight: 300;
+	font-size: 1.1rem;
+	margin-top: 0px;
+	margin-bottom: -10px;
+}
+.tags {
+    padding: .5rem 0 1rem;
+    line-height: 2;
+	margin-bottom: px;
+	margin-top: 1px;
+}
+
+.tags a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: .5rem;
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: .66rem;
+    border: 3px solid #28242f;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem;
+    position: relative;
+}
+
+.tags a:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    border-color: white;
+}
+.social-icons{
+	margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 2;
+	margin-bottom: 5px;
+	margin-top: .5px;
+	position: relative;
+	text-align: center;
+	font-size: 1.25rem;
+}
+.social-icons a{
+	color: white;
+}
