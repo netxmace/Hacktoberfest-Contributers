@@ -1,1 +1,0 @@
-# hacktober-contributor-page
