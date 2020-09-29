@@ -8,7 +8,9 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 ## Steps to contribute.
 1. Register for Hacktoberfest  https://hacktoberfest.digitalocean.com/
 2. Fork this repository and clone it.
-3. Create your profile card using the template given in index.html.  *just copy the template code and paste it below the last profile card, replace placeholders with your details* 
+3. Create your profile card using the template given in index.html.  
+    *just copy the template code and paste it below the last profile card, replace placeholders with your details*   
+   *Remember to name the outer div of the card and your cool image as "yourname-dob". Eg : "bonniesimon1999"*
 4. Send a pull request and you are done with your first contribution!
 5. Give this project a star if you liked working on it and share it as much as you can with people new to Open Source
 
