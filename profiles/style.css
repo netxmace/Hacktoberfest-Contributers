@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
-
 body {
     padding: 0;
     margin: 0;
@@ -10,52 +9,49 @@ body {
 }
 
 .card-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 3rem;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
-
 
 .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
+
 .card-list::-webkit-scrollbar-thumb {
     background: #201c29;
     border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
 
 .card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
 }
-
 
 .card {
     display: flex;
-	position: relative;
-	flex-direction: column;
+    position: relative;
+    flex-direction: column;
     height: 330px;
-    width: 200px;
+    /* width: 200px; */
     min-width: 250px;
-	padding: 1.5rem;
-	margin: 50px;
-	border-radius: 16px;
+    padding: 1.5rem;
+    margin: 50px;
+    border-radius: 16px;
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
     transition: .4s;
 }
-.flex-card{
-	flex-wrap: wrap;
+
+.flex-card {
+    flex-wrap: wrap;
 }
+
 .card:hover {
     transform: translateY(-1rem);
 }
-
-
-
-
-
-
