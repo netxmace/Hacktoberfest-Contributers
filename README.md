@@ -10,6 +10,7 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 2. Fork this repository and clone it.
 3. Go to the /profiles folder, make a copy of template.html, rename it to **/your-name-dob** 
         For example, johndoe-12031978.html
+4. **Do not edit the template.html file, copy the file and rename it to 'yourname-dob'**
 4. Inside your html file, Create your profile card. (Its already created for you. Just edit the text, replace it with your details)
    *Remember to name the outer div of the card and your cool image as "yourname-dob". Eg : "johndoe1978"*
 5. Use [git local workflow](https://hacktoberfest.netx.club/gitguide.html) to push the code to your forked repo.
